@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
       );
     });
   }
-  var fetchData= FirebaseFirestore.instance.collection('students');
+  var fetchData= FirebaseFirestore.instance.collection('students').where("name",isEqualTo:"Sonu Dright");
 
   void openBottomSheet(String id) {
     showModalBottomSheet(

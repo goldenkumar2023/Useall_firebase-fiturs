@@ -30,7 +30,7 @@ class myapp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home:PhoneAuthScreen(),
-      home:InsertPage(),
+      home:InsertData(),
 
     );
   }
