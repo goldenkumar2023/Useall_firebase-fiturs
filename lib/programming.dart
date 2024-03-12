@@ -314,3 +314,56 @@ import 'dart:io';
 
 //Q(iv)with argument and with return type
 
+// // default constructor
+//
+// class Students{
+//   Students();
+//   writeName(){
+//     print("Sonu is buzurg");
+//   }
+// }
+//
+// // Named Constructor
+//
+// class Human{
+//   Human.admi();
+//
+//   writeHuman(){
+//     print("this is Arun");
+//   }
+// }
+//
+// // parameterized constructor
+//
+// class Car{
+//   Car(this.name);
+//   String? name;
+//
+//   writeName(){
+//     print(name);
+//   }
+// }
+//
+// void main(){
+//   var std = Students();
+//   std.writeName();
+//   var hum = Human.admi();
+//   hum.writeHuman();
+//   var car = Car("Gola");
+//   car.writeName();
+// }
+//
+
+// void main(){
+//   var number=[20,30,40,50,100,200];
+//   var maxnumber=number[0];
+//   for(int i=0;i<number.length;i++){
+//     if(number[i]>maxnumber){
+//       maxnumber=number[i];
+//     }
+//   }
+// print(maxnumber);
+//
+// }
+
+

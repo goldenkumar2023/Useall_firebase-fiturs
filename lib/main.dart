@@ -3,10 +3,16 @@ import 'package:firebase_core/firebase_core.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'Aplodimage/image_aplode.dart';
+import 'Authationtest/home_screen.dart';
+import 'Bymodel_insert_data/home_screen.dart';
 import 'Bymodel_insert_data/insert_data.dart';
 import 'CrudTest/add_data.dart';
 import 'Crud_revigan/red_data.dart';
+import 'DeepLinking/deepLinkHandler.dart';
 import 'Model/insert_data.dart';
+import 'Sqlite_localdatabase/SQflite_sudishsr/sqflite_login.dart';
+import 'Timer/stop_watch.dart';
 import 'firebase_options.dart';
 
 
@@ -29,8 +35,10 @@ class myapp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      //home:PhoneAuthScreen(),
-      home:InsertData(),
+      //home:PhoneAuthScreen(),      
+      //home:HomePageTimer(),
+      //home:InsertData(),
+      //home: Insertingdatascreen(),
 
     );
   }
